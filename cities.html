@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/latvia.png">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <title>Cities</title>
     <link rel="stylesheet" href="styles/slicknav.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -17,7 +21,7 @@
 <body>
     <header>
         <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Latvian Coat of Arms" height="80">
-        <h2>Cities of Latvia</h2>
+        <h2 class="tangerine">Cities of Latvia</h2>
     </header>
     <nav id="mobile_menu"></nav>
     <nav id="nav_menu">
@@ -31,13 +35,12 @@
                     <li><a href="landmarks.html">Landmarks</a></li>
                 </ul>
             </li>
-            <li><a href="events.html">Events</a>
-             
-            <li><a href="aboutus.html">About Us</a>
-            
+            <li><a href="events.html">Events</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
     </nav>
     <main>
-    <ul>
+    <ul id="list">
         <li>Riga</li>
         <li>Jelgava</li>
         <li>Jurmala</li>
@@ -50,7 +53,7 @@
                 var today = new Date();
                 document.write("&copy;&nbsp;");
                 document.write(today.getFullYear());
-                document.write(", Oskars Poukens");
+                document.write(" Oskars Poukens");
             </script>
         </p>
     </footer>

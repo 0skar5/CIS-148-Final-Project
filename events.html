@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/latvia.png">
     <link rel="stylesheet" href="styles/main.css">
     <title>Festivals</title>
     <link rel="stylesheet" href="styles/slicknav.css">
@@ -13,11 +17,26 @@
 			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
     	});
     </script>
+     <style>
+     main {
+            margin-left: 10px; 
+            max-width: 800px; 
+        }
+        main p {
+            margin: 10px 0;
+        }
+        main a.download-link {
+            display: block;
+            margin-top: 10px; 
+            text-align: left; 
+            width: 100%; 
+        }
+    </style>
 </head>
 <body>
     <header>
         <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Latvian Coat of Arms" height="80">
-        <h2>Song and Dance Festivals</h2>
+        <h2 class="tangerine">Song and Dance Festivals</h2>
     </header>
     <nav id="mobile_menu"></nav>
     <nav id="nav_menu">
@@ -31,13 +50,15 @@
                     <li><a href="landmarks.html">Landmarks</a></li>
                 </ul>
             </li>
-            <li><a href="events.html" class="current">Events</a>
+            <li><a href="events.html" class="current">Events</a></li>
              
-            <li><a href="aboutus.html">About Us</a>
-            
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>    
     </nav>
     <main>
     <p>The All-Latvian Song Festival has been held since 1873, it takes place every five years, with the Latvian Dance Festival component added in 1948. I've had the opportunity to perform at the 2013 and the most recent 2023 performances. During the festivals, exhibitions of various forms of art, folk craft, orchestra concerts, and there's delicous food everywhere!</p>
+    <p>Download the program for the upcoming festival:</p>
+    <a href="files/XVI LATVIEŠU DZIESMU UN DEJU SVĒTKU KANĀDĀ Deju lieluzveduma programma.pdf" class="download-link">Download Program</a>
     </main>
     <footer>
         <p>
@@ -45,7 +66,7 @@
                 var today = new Date();
                 document.write("&copy;&nbsp;");
                 document.write(today.getFullYear());
-                document.write(", Oskars Poukens");
+                document.write(" Oskars Poukens");
             </script>
         </p>
     </footer>

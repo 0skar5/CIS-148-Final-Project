@@ -3,8 +3,12 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/latvia.png">
         <title>Latvian's National Anthem</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/slicknav.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -18,7 +22,7 @@
     <body>
         <header>
             <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Latvian Coat of Arms" height="80">
-            <h2>National Anthem</h2>
+            <h2 class="tangerine">National Anthem</h2>
         </header>
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
@@ -32,14 +36,24 @@
                         <li><a href="landmarks.html">Landmarks</a></li>
                     </ul>
                 </li>
-                <li><a href="events.html">Events</a>
+                <li><a href="events.html">Events</a></li>
                  
-                <li><a href="aboutus.html">About Us</a>
-                
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>    
         </nav>
         <main>
         <h1>Listen to the song of my people!</h1>
         <audio src="music/lv.mp3" controls></audio>
         </main>
+        <footer>
+            <p>
+                <script>
+                    var today = new Date();
+                    document.write("&copy;&nbsp;");
+                    document.write(today.getFullYear());
+                    document.write(" Oskars Poukens");
+                </script>
+            </p>
+        </footer>
     </body>
 </html>
