@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/latvia.png">
+        <title>Introducing Latvia!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Town Hall logo" height="80">
+            <h2>Latvia!</h2>
+            <h3>The <span class="sparkle">Baltic Jewel</span> of North Eastern Europe </h3>
+        </header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="anthem.html">National Anthem</a></li>
+                <li><a href="attractions.html">Attractions</a>
+                    <ul>
+                        <li><a href="cities.html">Cities</a></li>
+                        <li><a href="nature.html">Nature</a></li>
+                        <li><a href="landmarks.html">Landmarks</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html">Events</a>
+                    <ul>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="holidays.html">Holidays</a></li>
+                    </ul>
+                <li><a href="aboutus.html">About Us</a>
+                    <ul>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="contact.html">Contact Information</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>Riga</h2>
+                <img src="images/IMG_6595.JPG" alt="Old Town Riga View" width="400" class="riga-img">
+                <p>Latvia is my home country and I was born in the capital, Riga. 
+                After Latvia regained its independence on May 4th of 1990 and the break up of the Soviet Union in 1991, I immigrated to the United States. 
+                While I've lived in the United States for most of my life, I still participate in my Latvian culture and heritage. 
+                I've been part of Latvian community centers and song and dance festivals from our culture all over North America, and of course back in Latvia. 
+                In fact, I've danced for so many years that I've officially become the dance teacher for the Los Angeles Latvian Community Center and will be leading the group in Toronto, Canada this year.</p>
+            </section>
+            <aside class="sidebar">
+                <h3>Fun Facts</h3>
+                <ul>
+                    <li>Capital: Riga</li>
+                    <li>Population: ~1.9 million</li>
+                    <li>Official Language: Latvian</li>
+                    <li>Currency: Euro (€)</li>
+                </ul>
+                <h3>Interesting Links</h3>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Latvia">Latvia on Wikipedia</a></li>
+                    <li><a href="https://www.latvia.travel/en">Official Tourism Site</a></li>
+                    <li><a href="https://www.lonelyplanet.com/latvia">Lonely Planet Guide</a></li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <p>
+                <script>
+                    var today = new Date();
+                    document.write("&copy;&nbsp;");
+                    document.write(today.getFullYear());
+                    document.write(", Oskars Poukens");
+                </script>
+            </p>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
