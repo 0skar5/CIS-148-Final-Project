@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Festivals</title>
+    <link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+<body>
+    <header>
+        <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Latvian Coat of Arms" height="80">
+        <h2>Song and Dance Festivals</h2>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="anthem.html">National Anthem</a></li>
+            <li><a>Attractions</a>
+                <ul>
+                    <li><a href="cities.html">Cities</a></li>
+                    <li><a href="nature.html">Nature</a></li>
+                    <li><a href="landmarks.html">Landmarks</a></li>
+                </ul>
+            </li>
+            <li><a href="events.html" class="current">Events</a>
+             
+            <li><a href="aboutus.html">About Us</a>
+            
+    </nav>
+    <main>
+    <p>The All-Latvian Song Festival has been held since 1873, it takes place every five years, with the Latvian Dance Festival component added in 1948. I've had the opportunity to perform at the 2013 and the most recent 2023 performances. During the festivals, exhibitions of various forms of art, folk craft, orchestra concerts, and there's delicous food everywhere!</p>
+    </main>
+    <footer>
+        <p>
+            <script>
+                var today = new Date();
+                document.write("&copy;&nbsp;");
+                document.write(today.getFullYear());
+                document.write(", Oskars Poukens");
+            </script>
+        </p>
+    </footer>
+</body>
+</html>

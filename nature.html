@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>National Parks of Latvia</title>
+    <link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+<body>
+    <header>
+        <img src="images/Coat_of_arms_of_Latvia.svg.png" alt="Latvian Coat of Arms" height="80">
+        <h2>National Parks of Latvia</h2>
+    </header>
+    <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anthem.html">National Anthem</a></li>
+                <li><a class="current">Attractions</a>
+                    <ul>
+                        <li><a href="cities.html">Cities</a></li>
+                        <li><a href="nature.html" class="current">Nature</a></li>
+                        <li><a href="landmarks.html">Landmarks</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html">Events</a>
+                 
+                <li><a href="aboutus.html">About Us</a>
+                
+        </nav>
+    <main>
+    <ul>
+        <li>Gauja National Park</li>
+        <li>Kemeri National Park</li>
+        <li>Raznas</li>
+        <li>Slitere</li>
+    </ul>
+    </main>
+    <footer>
+        <p>
+            <script>
+                var today = new Date();
+                document.write("&copy;&nbsp;");
+                document.write(today.getFullYear());
+                document.write(", Oskars Poukens");
+            </script>
+        </p>
+    </footer>
+</body>
+</html>
